@@ -1,0 +1,127 @@
+.base-modal {
+  color: black;
+}
+
+.base-modal .modal-content {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  min-height: 500px;
+}
+
+.base-modal .modal-content .modal-header {
+  border-bottom: 2px solid black;
+}
+
+.base-modal .modal-content .modal-header h5 {
+  font-weight: bold;
+  font-size: 34px;
+  padding-left: 15px;
+}
+
+.base-modal .modal-content .modal-body p.intro {
+  padding-left: 15px;
+}
+
+.base-modal .modal-content .modal-body h5 {
+  font-size: 28px;
+}
+
+.base-modal .modal-content .modal-footer {
+  border-top: 2px solid black;
+}
+
+.base-modal-dark {
+  color: black;
+}
+
+.base-modal-dark .modal-header {
+  border-bottom: 2px solid rgba(235, 55, 65, 1);
+  /* border-bottom: 2px solid #51d8ad; */
+  color: white;
+}
+
+.base-modal-dark .modal-header h5 {
+  font-weith: bold;
+  font-size: 34px;
+  padding-left: 15px;
+}
+
+.base-modal-dark .modal-content {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.base-modal-dark .modal-content button.close {
+  color: white;
+  opacity: 1;
+}
+
+.base-modal-dark .modal-body {
+  font-size: 18px;
+}
+
+.base-modal-dark .modal-body p.intro {
+  padding-left: 15px;
+}
+
+.base-modal-dark .modal-body h5 {
+  font-size: 28px;
+}
+
+.base-modal-dark .modal-footer {
+  border-top: none;
+}
+
+.modal-backdrop.show {
+  background: rgba(255, 255, 255, 1);
+  opacity: 0.95;
+}
+
+.modal-backdrop.show.dark {
+  background: rgba(0, 0, 0, 0.9);
+  opacity: 1;
+}
+
+.image-display-modal-holder {
+  text-align: center;
+}
+
+.image-display-modal-holder img {
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 3px;
+  box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.4);
+}
+
+.image-display-modal .modal-dialog {
+  max-width: 550px;
+}
+
+.image-display-modal .modal-content.display-image-modal {
+  background: rgba(0, 0, 0, 1);
+  border: 2px solid rgba(235, 55, 65, 1);
+  /* border: 2px solid #51d8ad; */
+}
+
+.image-display-modal .modal-content.display-image-modal .modal-header {
+  border-bottom: none;
+  padding-bottom: none;
+}
+
+.image-display-modal .modal-content.display-image-modal .modal-header .image-display-logo-holder {
+  height: 30px;
+}
+
+.image-display-modal .modal-content.display-image-modal .modal-header .image-display-logo-holder span {
+  font-size: 30px;
+  margin: 0;
+  padding: 6px 0;
+  line-height: 1;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.image-display-modal .modal-content.display-image-modal .modal-header .image-display-logo-holder .image-display-logo {
+  height: 100%;
+}
