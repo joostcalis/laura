@@ -83,8 +83,8 @@
   <section id="hero">
     <div class="hero-container">
       <h1>The traveling Designer</h1>
-      <h2>Designing your latest outfit from an undisclosed exotic location</h2>
-      <a href="#about" class="btn-get-started">Get Started</a>
+      <h2>Designing your latest outfit from a secret exotic location</h2>
+      <a href="#about" class="btn-get-started">Request design!</a>
     </div>
   </section><!-- #hero -->
 
@@ -122,21 +122,21 @@
 
         <div class="row about-container about-icon-wrapper">
 
-          <div class="col-lg-4 content order-lg-1 order-2">
+          <div class="col-4 content order-lg-1 order-2">
             <div class="icon-box wow fadeInUp">
               <div class="icon"><i class="fa fa-code"></i></div>
               <h4 class="title"><a href="">Coder</a></h4>
             </div>
           </div>
 
-          <div class="col-lg-4 content order-lg-1 order-2">
+          <div class="col-4 content order-lg-1 order-2">
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-cut"></i></div>
               <h4 class="title"><a href="">Fashion Designer</a></h4>
             </div>
           </div>
 
-          <div class="col-lg-4 content order-lg-1 order-2">
+          <div class="col-4 content order-lg-1 order-2">
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
               <div class="icon"><i class="fa fa-heart"></i></div>
               <h4 class="title"><a href="">Mountain Girl</a></h4>
@@ -329,7 +329,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-lg-12 col-md-12">
-                    <div class="review-image-holder">
+                    <div class="review-image-holder dynamic-image-trigger bs-show-button" data-toggle='modal' data-targetmodal='image-display-modal' data-src='img/reviews/review-clement-1.jpg'>
                       <img src="img/reviews/review-clement-1.jpg">
                     </div>
                   </div>
@@ -345,7 +345,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-lg-12 col-md-12">
-                    <div class="review-image-holder">
+                    <div class="review-image-holder dynamic-image-trigger bs-show-button" data-toggle='modal' data-targetmodal='image-display-modal' data-src='img/reviews/review-karo-4.jpg'>
                       <img src="img/reviews/review-karo-4.jpg">
                     </div>
                   </div>
@@ -361,7 +361,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-lg-12 col-md-12">
-                    <div class="review-image-holder">
+                    <div class="review-image-holder dynamic-image-trigger bs-show-button" data-toggle='modal' data-targetmodal='image-display-modal' data-src='img/reviews/ana-jorg-picknick.jpeg'>
                       <img src="img/reviews/ana-jorg-picknick.jpeg">
                     </div>
                   </div>
@@ -374,11 +374,11 @@
             <div class="box">
               <div class="icon"><a href=""><i class="fa fa-photo"></i></a></div>
               <h4 class="title"><a href="">Naciye</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <p class="description">We were a bit suspicious about how this “hippie” robe would turn out after all my particular requests about it! But, the end product was definitely a big success thanks to Laura’s awesome design and work ;)</p>
               <div class="container">
                 <div class="row">
                   <div class="col-lg-12 col-md-12">
-                    <div class="review-image-holder">
+                    <div class="review-image-holder dynamic-image-trigger bs-show-button" data-toggle='modal' data-targetmodal='image-display-modal' data-src='img/reviews/naciye-kimono-back.jpeg'>
                       <img src="img/reviews/naciye-kimono-back.jpeg">
                     </div>
                   </div>
@@ -390,12 +390,12 @@
             <div class="box">
               <div class="icon"><a href=""><i class="fa fa-road"></i></a></div>
               <h4 class="title"><a href="">Naciye's nephew</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <p class="description">One cutey, my nephew in one cutey bib! Thanks to dear Laura for this super sweet and elegant bib she did for my dear nephew! (Must be an awesome feeling that her products are reaching all the way to Turkey! ;))</p>
               <div class="container">
                 <div class="row">
                   <div class="col-lg-12 col-md-12">
-                    <div class="review-image-holder">
-                      <img src="img/reviews/naciye-nephew.jpeg">
+                    <div class="review-image-holder dynamic-image-trigger bs-show-button" data-toggle='modal' data-targetmodal='image-display-modal' data-src='img/reviews/naciye-nephew-review-2.jpeg'>
+                      <img src="img/reviews/naciye-nephew-review-2.jpeg">
                     </div>
                   </div>
                 </div>
@@ -410,7 +410,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-lg-12 col-md-12">
-                    <div class="review-image-holder">
+                    <div class="review-image-holder dynamic-image-trigger bs-show-button" data-toggle='modal' data-targetmodal='image-display-modal' data-src='img/reviews/handbag-review.jpg'>
                       <img src="img/reviews/handbag-review.jpg">
                     </div>
                   </div>
@@ -575,27 +575,23 @@
           </div>
 
           <div class="col-lg-5 col-md-8">
-            <div class="form">
+            <div class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSdewTJWclJJcGbSNJHK25D1OrIc2gmEF5p-Tay1KtE-18Qcyg/formResponse?embedded=true" method="post">
               <div id="sendmessage">Your message has been sent. Thank you!</div>
               <div id="errormessage"></div>
               <form action="" method="post" role="form" class="contactForm">
                 <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="email" name="emailAddress" class="form-control" id="name" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email"/>
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <input type="text" class="form-control" name="entry.1111585615" id="email" placeholder="Your Name"/>
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <textarea class="form-control" name="entry.773004974" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Describe the design you would like to request"></textarea>
                   <div class="validation"></div>
                 </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validation"></div>
-                </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
+                <div class="text-center"><button type="submit">Request Design</button></div>
               </form>
             </div>
           </div>
