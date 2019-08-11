@@ -4,10 +4,11 @@ function initiateModal() {
 
 function triggerShowModal() {
   $('.bs-show-button').on('click', function() {
-    console.log('clicked');
     var targetModal = $(this).attr('data-targetmodal');
     $('#' + targetModal).modal('show');
     if(targetModal === 'image-display-modal') {
+      $('.modal-backdrop').addClass('dark');
+    } else if(targetModal === 'contact-form-modal') {
       $('.modal-backdrop').addClass('dark');
     };
   })
